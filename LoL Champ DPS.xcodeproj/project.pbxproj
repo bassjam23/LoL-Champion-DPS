@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4A678E961CE7D5D900EFF123 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A678E951CE7D5D900EFF123 /* main.cpp */; };
+		4A678E9E1CE7D61700EFF123 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A678E9C1CE7D61700EFF123 /* HashTable.cpp */; };
+		4A678EA11CE7D6E000EFF123 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A678E9F1CE7D6E000EFF123 /* LinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		4A678E921CE7D5D800EFF123 /* LoL Champ DPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LoL Champ DPS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A678E951CE7D5D900EFF123 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4A678E9C1CE7D61700EFF123 /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		4A678E9D1CE7D61700EFF123 /* HashTable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HashTable.hpp; sourceTree = "<group>"; };
+		4A678E9F1CE7D6E000EFF123 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		4A678EA01CE7D6E000EFF123 /* LinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				4A678E951CE7D5D900EFF123 /* main.cpp */,
+				4A678E9C1CE7D61700EFF123 /* HashTable.cpp */,
+				4A678E9D1CE7D61700EFF123 /* HashTable.hpp */,
+				4A678E9F1CE7D6E000EFF123 /* LinkedList.cpp */,
+				4A678EA01CE7D6E000EFF123 /* LinkedList.hpp */,
 			);
 			path = "LoL Champ DPS";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A678E9E1CE7D61700EFF123 /* HashTable.cpp in Sources */,
+				4A678EA11CE7D6E000EFF123 /* LinkedList.cpp in Sources */,
 				4A678E961CE7D5D900EFF123 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
